@@ -1,0 +1,197 @@
+Uso:
+  zenity [OPÇÃO…]
+
+Opções de ajuda:
+  -h, --help                                           Mostra opções de ajuda
+  --help-all                                           Mostra todas as opções de ajuda
+  --help-general                                       Mostra as opções gerais
+  --help-calendar                                      Mostra as opções de calendário
+  --help-entry                                         Mostra as opções de entrada texto
+  --help-error                                         Mostra as opções de erro
+  --help-info                                          Mostra as opções de informação
+  --help-file-selection                                Mostra as opções de seleção de arquivo
+  --help-list                                          Mostra as opções de lista
+  --help-notification                                  Mostra as opções do ícone de notificação
+  --help-progress                                      Mostra as opções de progresso
+  --help-question                                      Mostra as opções de pergunta
+  --help-warning                                       Mostra as opções de aviso
+  --help-scale                                         Mostra as opções de escala
+  --help-text-info                                     Mostra as opções das informações do texto
+  --help-color-selection                               Mostra as opções de seleção de cor
+  --help-password                                      Mostra as opções de aviso de senha
+  --help-forms                                         Mostra as opções de diálogo de formulário
+  --help-misc                                          Mostra as opções adicionais
+  --help-gtk                                           Mostra as opções do GTK+
+
+General options
+  --title=TÍTULO                                       Define o título do diálogo
+  --window-icon=CAMINHODOÍCONE                         Define o ícone da janela
+  --width=LARGURA                                      Define a largura
+  --height=ALTURA                                      Define a altura
+  --timeout=TEMPO                                      Define o intervalo do diálogo em segundos
+  --ok-label=TEXTO                                     Define o rótulo do botão OK
+  --cancel-label=TEXTO                                 Define o rótulo do botão Cancelar
+  --extra-button=TEXTO                                 Adiciona um botão adicional
+  --modal                                              Define a dica do modal
+  --attach=JANELA                                      Define a janela principal a anexar
+
+Calendar options
+  --text=TEXTO                                         Define o texto do diálogo
+  --day=DIA                                            Define o dia do calendário
+  --month=MÊS                                          Define o mês do calendário
+  --year=ANO                                           Define o ano do calendário
+  --date-format=MODELO                                 Define o formato para a data devolvida
+
+Text entry options
+  --text=TEXTO                                         Define o texto do diálogo
+  --entry-text=TEXTO                                   Define o texto introduzido
+  --hide-text                                          Oculta o texto introduzido
+
+Error options
+  --text=TEXTO                                         Define o texto do diálogo
+  --icon-name=NOME-DO-ICONE                            Define o ícone do diálogo
+  --no-wrap                                            Não habilita quebra de linha no texto
+  --no-markup                                          Não habilita marcação pango
+  --ellipsize                                          Habilitar formatação elíptica no texto do diálogo. Isto corrige o alto tamanho da janela quando há textos longos
+
+Info options
+  --text=TEXTO                                         Define o texto do diálogo
+  --icon-name=NOME-DO-ICONE                            Define o ícone do diálogo
+  --no-wrap                                            Não habilita quebra de linha no texto
+  --no-markup                                          Não habilita marcação pango
+  --ellipsize                                          Habilitar formatação elíptica no texto do diálogo. Isto corrige o alto tamanho da janela quando há textos longos
+
+File selection options
+  --filename=NOMEDOARQUIVO                             Define o nome do arquivo
+  --multiple                                           Permite a seleção de múltiplos arquivos
+  --directory                                          Ativa apenas a seleção de diretórios
+  --save                                               Ativa modo de salvar
+  --separator=SEPARADOR                                Define o caractere separador de saída
+  --confirm-overwrite                                  Confirma a seleção do arquivo se o nome do arquivo já existe
+  --file-filter=NOME | PADRÃO1 PADRÃO2 …               Define um filtro de nome de arquivo
+
+List options
+  --text=TEXTO                                         Define o texto do diálogo
+  --column=COLUNA                                      Define o cabeçalho da coluna
+  --checklist                                          Usa caixas de seleção para primeira coluna
+  --radiolist                                          Usa botões de opção para primeira coluna
+  --imagelist                                          Usa uma imagem para primeira coluna
+  --separator=SEPARADOR                                Define o caractere separador de saída
+  --multiple                                           Permite seleção de múltiplas linhas
+  --editable                                           Permite alterações no texto
+  --print-column=NÚMERO                                Imprime uma coluna específica (O padrão é 1. “ALL” pode ser usado para imprimir todas as colunas)
+  --hide-column=NÚMERO                                 Oculta uma coluna específica
+  --hide-header                                        Oculta os cabeçalhos da coluna
+  --mid-search                                         Altera a pesquisa da função de pesquisa padrão da lista para o texto no meio, e não no começo
+
+Notification icon options
+  --text=TEXTO                                         Define o texto da notificação
+  --listen                                             Espera por comandos na entrada padrão
+  --hint=TEXTO                                         Define as dicas da notificação
+
+Progress options
+  --text=TEXTO                                         Define o texto do diálogo
+  --percentage=PORCENTAGEM                             Define uma percentagem inicial
+  --pulsate                                            Pulsa a barra de progresso
+  --auto-close                                         Fecha o diálogo quando atingir 100%
+  --auto-kill                                          Mata o processo principal se o botão Cancelar for pressionado
+  --no-cancel                                          Oculta o botão Cancelar
+  --time-remaining                                     Estima quando o progresso vai alcançar 100%
+
+Question options
+  --text=TEXTO                                         Define o texto do diálogo
+  --icon-name=NOME-DO-ICONE                            Define o ícone do diálogo
+  --no-wrap                                            Não habilita quebra de linha no texto
+  --no-markup                                          Não habilita marcação pango
+  --default-cancel                                     Dá foco ao botão Cancelar, por padrão
+  --ellipsize                                          Habilitar formatação elíptica no texto do diálogo. Isto corrige o alto tamanho da janela quando há textos longos
+  --switch                                             Oculta os botões “OK” e “Cancelar”
+
+Warning options
+  --text=TEXTO                                         Define o texto do diálogo
+  --icon-name=NOME-DO-ICONE                            Define o ícone do diálogo
+  --no-wrap                                            Não habilita quebra de linha no texto
+  --no-markup                                          Não habilita marcação pango
+  --ellipsize                                          Habilitar formatação elíptica no texto do diálogo. Isto corrige o alto tamanho da janela quando há textos longos
+
+Scale options
+  --text=TEXTO                                         Define o texto do diálogo
+  --value=VALOR                                        Define o valor inicial
+  --min-value=VALOR                                    Define o valor mínimo
+  --max-value=VALOR                                    Define o valor máximo
+  --step=VALOR                                         Define o tamanho de cada passo
+  --print-partial                                      Imprime os valores parciais
+  --hide-value                                         Oculta o valor
+
+Text information options
+  --filename=NOMEDOARQUIVO                             Abre o arquivo
+  --editable                                           Permite alterações no texto
+  --font=TEXTO                                         Define a fonte do texto
+  --checkbox=TEXTO                                     Habilita uma caixa de seleção Eu li e concordo
+  --html                                               Habilita suporte a HTML
+  --no-interaction                                     Não habilita interação do usuário com a WebView. Só funciona se você usar a opção --html
+  --url=URL                                            Define uma URL ao invés de um arquivo. Só funciona se você usar a opção --html
+  --auto-scroll                                        Rola automaticamente o texto até o final. Apenas quando o texto for capturado da entrada padrão
+
+Color selection options
+  --color=VALOR                                        Define a cor
+  --show-palette                                       Mostra a paleta
+
+Password dialog options
+  --username                                           Exibe a opção de nome de usuário
+
+Forms dialog options
+  --add-entry=Nome do campo                            Adiciona uma nova entrada no diálogo de formulários
+  --add-password=Nome do campo                         Adiciona uma nova entrada de senha no diálogo de formulários
+  --add-calendar=Nome do campo calendário              Adiciona um novo calendário no diálogo de formulários
+  --add-list=Campo lista e nome do cabeçalho           Adiciona uma nova lista no diálogo de formulários
+  --list-values=Lista de valores separado por |        Lista de valores para lista
+  --column-values=Lista de valores separado por |      Lista de valores para colunas
+  --add-combo=Nome do campo da caixa de combinação     Adiciona uma nova caixa de combinação no diálogo de formulários
+  --combo-values=Lista de valores separado por |       Lista de valores para a caixa de combinação
+  --show-header                                        Exibe o cabeçalho das colunas
+  --text=TEXTO                                         Define o texto do diálogo
+  --separator=SEPARADOR                                Define o caractere separador de saída
+  --forms-date-format=MODELO                           Define o formato para a data devolvida
+
+Miscellaneous options
+  --about                                              Sobre o zenity
+  --version                                            Imprime a versão
+
+Opções do GTK+
+  --class=CLASS                                        Program class as used by the window manager
+  --name=NAME                                          Program name as used by the window manager
+  --gdk-debug=FLAGS                                    GDK debugging flags to set
+  --gdk-no-debug=FLAGS                                 GDK debugging flags to unset
+  --gtk-module=MODULES                                 Load additional GTK+ modules
+  --g-fatal-warnings                                   Make all warnings fatal
+  --gtk-debug=FLAGS                                    GTK+ debugging flags to set
+  --gtk-no-debug=FLAGS                                 GTK+ debugging flags to unset
+
+Opções de aplicativo:
+  --calendar                                           Exibe um diálogo de calendário
+  --entry                                              Exibe um diálogo de entrada de texto
+  --error                                              Exibe um diálogo de erro
+  --info                                               Exibe um diálogo de informações
+  --file-selection                                     Exibe um diálogo de seleção de arquivo
+  --list                                               Exibe um diálogo de lista
+  --notification                                       Exibe uma notificação
+  --progress                                           Exibe um diálogo indicador de progresso
+  --question                                           Exibe um diálogo de pergunta
+  --warning                                            Exibe um diálogo de aviso
+  --scale                                              Exibe um diálogo de escala
+  Opções de escala
+  --scale                                              Exibe um diálogo de escala
+  --text=TEXTO                                         Define o texto do diálogo
+  --value=VALOR                                        Define o valor inicial
+  --min-value=VALOR                                    Define o valor mínimo
+  --max-value=VALOR                                    Define o valor máximo
+  --step=VALOR                                         Define o tamanho de cada passo
+  --print-partial                                      Imprime os valores parciais
+  --hide-value     
+  --text-info                                          Exibe um diálogo de texto informativo
+  --color-selection                                    Exibe um diálogo de seleção de cor
+  --password                                           Exibe um diálogo de senha
+  --forms                                              Exibe um diálogo de formulários
+  --display=DISPLAY                                    X display to use
+

@@ -1,0 +1,119 @@
+Uso:
+  zenity [OPÇÃO…]
+
+Opções de diálogo de formulários
+  --forms                                              Exibe um diálogo de formulários
+  --add-entry=Nome do campo                            Adiciona uma nova entrada no diálogo de formulários
+  --add-password=Nome do campo                         Adiciona uma nova entrada de senha no diálogo de formulários
+  --add-calendar=Nome do campo calendário              Adiciona um novo calendário no diálogo de formulários
+  --add-list=Campo lista e nome do cabeçalho           Adiciona uma nova lista no diálogo de formulários
+  --list-values=Lista de valores separado por |        Lista de valores para lista
+  --column-values=Lista de valores separado por |      Lista de valores para colunas
+  --add-combo=Nome do campo da caixa de combinação     Adiciona uma nova caixa de combinação no diálogo de formulários
+  --combo-values=Lista de valores separado por |       Lista de valores para a caixa de combinação
+  --show-header                                        Exibe o cabeçalho das colunas
+  --text=TEXTO                                         Define o texto do diálogo
+  --separator=SEPARADOR                                Define o caractere separador de saída
+  --forms-date-format=MODELO                           Define o formato para a data devolvida
+
+Uso:
+  zenity [OPÇÃO…]
+
+Opções gerais
+  --title=TÍTULO                                       Define o título do diálogo
+  --window-icon=CAMINHODOÍCONE                         Define o ícone da janela
+  --width=LARGURA                                      Define a largura
+  --height=ALTURA                                      Define a altura
+  --timeout=TEMPO                                      Define o intervalo do diálogo em segundos
+  --ok-label=TEXTO                                     Define o rótulo do botão OK
+  --cancel-label=TEXTO                                 Define o rótulo do botão Cancelar
+  --extra-button=TEXTO                                 Adiciona um botão adicional
+  --modal                                              Define a dica do modal
+  --attach=JANELA                                      Define a janela principal a anexar
+
+Uso:
+  zenity [OPÇÃO…]
+
+Opções de ajuda:
+  -h, --help                                           Mostra opções de ajuda
+  --help-all                                           Mostra todas as opções de ajuda
+  --help-general                                       Mostra as opções gerais
+  --help-calendar                                      Mostra as opções de calendário
+  --help-entry                                         Mostra as opções de entrada texto
+  --help-error                                         Mostra as opções de erro
+  --help-info                                          Mostra as opções de informação
+  --help-file-selection                                Mostra as opções de seleção de arquivo
+  --help-list                                          Mostra as opções de lista
+  --help-notification                                  Mostra as opções do ícone de notificação
+  --help-progress                                      Mostra as opções de progresso
+  --help-question                                      Mostra as opções de pergunta
+  --help-warning                                       Mostra as opções de aviso
+  --help-scale                                         Mostra as opções de escala
+  --help-text-info                                     Mostra as opções das informações do texto
+  --help-color-selection                               Mostra as opções de seleção de cor
+  --help-password                                      Mostra as opções de aviso de senha
+  --help-forms                                         Mostra as opções de diálogo de formulário
+  --help-misc                                          Mostra as opções adicionais
+  --help-gtk                                           Mostra as opções do GTK+
+
+Opções de aplicativo:
+  --calendar                                           Exibe um diálogo de calendário
+  --entry                                              Exibe um diálogo de entrada de texto
+  --error                                              Exibe um diálogo de erro
+  --info                                               Exibe um diálogo de informações
+  --file-selection                                     Exibe um diálogo de seleção de arquivo
+  --list                                               Exibe um diálogo de lista
+  --notification                                       Exibe uma notificação
+  --progress                                           Exibe um diálogo indicador de progresso
+  --question                                           Exibe um diálogo de pergunta
+  --warning                                            Exibe um diálogo de aviso
+  --scale                                              Exibe um diálogo de escala
+  --text-info                                          Exibe um diálogo de texto informativo
+  --color-selection                                    Exibe um diálogo de seleção de cor
+  --password                                           Exibe um diálogo de senha
+  --forms                                              Exibe um diálogo de formulários
+  --display=DISPLAY                                    X display to use
+
+Uso:
+  zenity [OPÇÃO…]
+
+Opções de ajuda:
+  -h, --help                                           Mostra opções de ajuda
+  --help-all                                           Mostra todas as opções de ajuda
+  --help-general                                       Mostra as opções gerais
+  --help-calendar                                      Mostra as opções de calendário
+  --help-entry                                         Mostra as opções de entrada texto
+  --help-error                                         Mostra as opções de erro
+  --help-info                                          Mostra as opções de informação
+  --help-file-selection                                Mostra as opções de seleção de arquivo
+  --help-list                                          Mostra as opções de lista
+  --help-notification                                  Mostra as opções do ícone de notificação
+  --help-progress                                      Mostra as opções de progresso
+  --help-question                                      Mostra as opções de pergunta
+  --help-warning                                       Mostra as opções de aviso
+  --help-scale                                         Mostra as opções de escala
+  --help-text-info                                     Mostra as opções das informações do texto
+  --help-color-selection                               Mostra as opções de seleção de cor
+  --help-password                                      Mostra as opções de aviso de senha
+  --help-forms                                         Mostra as opções de diálogo de formulário
+  --help-misc                                          Mostra as opções adicionais
+  --help-gtk                                           Mostra as opções do GTK+
+
+Opções de aplicativo:
+  --calendar                                           Exibe um diálogo de calendário
+  --entry                                              Exibe um diálogo de entrada de texto
+  --error                                              Exibe um diálogo de erro
+  --info                                               Exibe um diálogo de informações
+  --file-selection                                     Exibe um diálogo de seleção de arquivo
+  --list                                               Exibe um diálogo de lista
+  --notification                                       Exibe uma notificação
+  --progress                                           Exibe um diálogo indicador de progresso
+  --question                                           Exibe um diálogo de pergunta
+  --warning                                            Exibe um diálogo de aviso
+  --scale                                              Exibe um diálogo de escala
+  --text-info                                          Exibe um diálogo de texto informativo
+  --color-selection                                    Exibe um diálogo de seleção de cor
+  --password                                           Exibe um diálogo de senha
+  --forms                                              Exibe um diálogo de formulários
+  --display=DISPLAY                                    X display to use
+
